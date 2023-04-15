@@ -15,7 +15,7 @@ struct CardView: View {
                 let cardShape = RoundedRectangle(cornerRadius: styleValue.cornerRadius)
                 if card.isSet {
                     cardShape.foregroundColor(.white)
-                    cardShape.strokeBorder(lineWidth: styleValue.lineWidth).foregroundColor(.gray)
+                    cardShape.strokeBorder(lineWidth: styleValue.lineWidth).foregroundColor(.gray).opacity(styleValue.opacity)
                     Text("SET!!!")
                 } else {
                     
@@ -65,13 +65,14 @@ struct CardView: View {
     
     private struct styleValue {
         static let cornerRadius : CGFloat = 20
-        static let opacity : CGFloat = 0
+        static let opacity : CGFloat = 0.1
+        
         static let lineWidth : CGFloat = 3
         static let isChoesenLineWidth : CGFloat = 4
     }
 }
 
- // original code
+ // original code doesn't look good
 
 //struct CardV : View{
 //    let color : setGameModel.Card.CardColor

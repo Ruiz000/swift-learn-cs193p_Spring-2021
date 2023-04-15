@@ -3,7 +3,10 @@
 //  Assignment3
 //
 //  Created by Ryan Peng on 2023/4/13.
-//
+
+//  useful information:
+/* https://stackoverflow.com/questions/25387940/how-to-draw-a-perfect-squiggle-in-set-card-game-with-objective-c
+ */
 
 import SwiftUI
 
