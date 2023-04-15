@@ -15,7 +15,6 @@
 		1F2353D029E7FF4000E3CC90 /* SetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2353CF29E7FF4000E3CC90 /* SetModel.swift */; };
 		1F2353D229E7FF6500E3CC90 /* SetGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2353D129E7FF6500E3CC90 /* SetGameViewModel.swift */; };
 		1F2353D629E83EEF00E3CC90 /* Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2353D529E83EEF00E3CC90 /* Diamond.swift */; };
-		1F2353D829E83F2900E3CC90 /* Stripes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2353D729E83F2900E3CC90 /* Stripes.swift */; };
 		1F2353DA29E83F6300E3CC90 /* Squiggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2353D929E83F6300E3CC90 /* Squiggle.swift */; };
 		1F2353DC29E9552900E3CC90 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2353DB29E9552900E3CC90 /* CardView.swift */; };
 		1F2353E029EA7E9200E3CC90 /* StripeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2353DF29EA7E9200E3CC90 /* StripeView.swift */; };
@@ -31,7 +30,6 @@
 		1F2353CF29E7FF4000E3CC90 /* SetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetModel.swift; sourceTree = "<group>"; };
 		1F2353D129E7FF6500E3CC90 /* SetGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameViewModel.swift; sourceTree = "<group>"; };
 		1F2353D529E83EEF00E3CC90 /* Diamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diamond.swift; sourceTree = "<group>"; };
-		1F2353D729E83F2900E3CC90 /* Stripes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stripes.swift; sourceTree = "<group>"; };
 		1F2353D929E83F6300E3CC90 /* Squiggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squiggle.swift; sourceTree = "<group>"; };
 		1F2353DB29E9552900E3CC90 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		1F2353DF29EA7E9200E3CC90 /* StripeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeView.swift; sourceTree = "<group>"; };
@@ -51,7 +49,6 @@
 		1F2353B329E7F90C00E3CC90 = {
 			isa = PBXGroup;
 			children = (
-				1F2353D729E83F2900E3CC90 /* Stripes.swift */,
 				1F2353BE29E7F90C00E3CC90 /* Assignment3 */,
 				1F2353BD29E7F90C00E3CC90 /* Products */,
 			);
@@ -163,7 +160,6 @@
 			files = (
 				1F2353D629E83EEF00E3CC90 /* Diamond.swift in Sources */,
 				1F2353DC29E9552900E3CC90 /* CardView.swift in Sources */,
-				1F2353D829E83F2900E3CC90 /* Stripes.swift in Sources */,
 				1F2353DA29E83F6300E3CC90 /* Squiggle.swift in Sources */,
 				1F2353C229E7F90C00E3CC90 /* ContentView.swift in Sources */,
 				1F2353CE29E7F9BB00E3CC90 /* AspectVGird.swift in Sources */,
